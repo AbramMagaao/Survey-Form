@@ -1,0 +1,15 @@
+body {
+margin:0;   
+background-color: #5a725a;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+   color: #454545;
+    font-size: 18px;
+}
+section {
+    padding: 2em 2em 1.75em;
+    width: 45em;
+    margin: 0 auto 2em;
+    max-width: 100%;
+    background-color: #ffffff;
+}

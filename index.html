@@ -15,8 +15,222 @@
 </head>
 <body>
 	<section>
-		<h1 id="title"> Survey Title </h1>
-		<div
+		<h1 id="title"> HOW ARE YOU TODAY? </h1>
+		<h2 id="subtitle">A survey form for your experience in life</h2>
+
+		<p id="description">We all go through a lot of crap each day. This survey is conducted to know how your day went. This also serves as a form of outlet for your feelings, somewhat like a diary. Data collected is to be added on <a id="dscrptn-link" href="http://lievsonearth.com" target="_blank">livesonearth.com</a> where you can view how other people's lives are doing.  Note: This is DEFINITELY NOT a creepy and weird project and we are DEFINITELY NOT sharing and selling your data with big companies. Otherwise, how are we getting our funds? -
+		</p>
+
+		<form id="survey-form">
+			<div class="form-group">
+	        	<label id="name-label" for="name">Name</label>
+	        	<input
+	        	  type="text"
+	        	  name="name"
+	        	  id="name"
+	        	  class="form-control"
+	        	  placeholder="Enter your name"
+	        	  required
+	        	/>
+    		</div>
+    		<div class="form-group">
+	        	<label id="email-label" for="email">E-mail</label>
+	        	<input
+	        	  type="email"
+	        	  name="email"
+	        	  id="email"
+	        	  class="form-control"
+	        	  placeholder="Enter your e-mail address"
+	        	  required
+	        	/>
+    		</div>
+    		<div class="form-group">
+      			<label id="number-label" for="number"
+      			  >Age</label
+      			>
+      			<input
+      			  type="number"
+      			  name="age"
+      			  id="number"
+      			  min="15"
+      			  max="120"
+      			  class="form-control"
+      			  placeholder="Age"
+      			  required
+      			/>
+    		</div>
+    		<div class="form-group">
+    		  	<p>What is your relationship status?
+    		  	</p>
+    		  	<select id="dropdown" name="role" class="			form-control" required>
+    		  	  	<option disabled selected value>	Select current role</option>
+    		  	  	<option value="single">Single</option>
+    		  	  	<option value="in-a-relationship">In a relationship</option>
+    		  	  	<option value="in-an-open-relationship">In an open relationship</option>
+    		  	  	<option value="married">Married</option>
+    		  	  	<option value="widowed">Widowed</option>
+    		  	  	<option value="divorced">Divorced</option>
+    		  	  	<option value="registered-partnership">Single</option>
+    		  	  	<option value="prefer-not-to-say">Prefer not to say</option>
+    		  	</select>
+    		</div>
+    		<div class="form-group">
+      			<p>How would you rate your day today?<span class="clue">(1 being the crappiest and 5 being the best)</span></p>
+      			<label>
+      			  <input
+      			    name="day-rating"
+      			    value="1"
+      			    type="radio"
+      			    class="input-radio"
+      			  />1</label>
+      			<label>
+      			  <input
+      			    name="day-rating"
+      			    value="2"
+      			    type="radio"
+      			    class="input-radio"
+      			  />2</label>
+			
+      			<label
+      			  ><input
+      			    name="day-rating"
+      			    value="3"
+      			    type="radio"
+      			    class="input-radio"
+      			  />3</label>
+      			<label
+      			  ><input
+      			    name="day-rating"
+      			    value="4"
+      			    type="radio"
+      			    class="input-radio"
+      			  />4</label>
+      			<label
+      			  ><input
+      			    name="day-rating"
+      			    value="5"
+      			    type="radio"
+      			    class="input-radio"
+      			  />5</label>
+    		</div>
+    		<div class="form-group">
+    			<p>
+    			  What are the emotions that you have felt today?
+    			  <span class="clue">(Check all that apply)</span>
+    			</p>
+			   	<label><input
+    				name="emotion"
+    				value="Joy"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Joy</label>
+    			<label><input
+    				name="emotion"
+    				value="Sadness"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Sadness</label>
+    			<label><input
+    				name="emotion"
+    				value="Fear"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Fear</label>
+    			<label><input
+    				name="emotion"
+    				value="Disgust"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Disgust</label>
+    			<label><input
+    				name="emotion"
+    				value="Anger"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Anger</label>
+    			<label><input
+    				name="emotion"
+    				value="Love"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Love</label>
+    			<label><input
+    				name="emotion"
+    				value="Guilt"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Guilt</label>
+    			<label><input
+    				name="emotion"
+    				value="Pride"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Pride</label>
+    			<label><input
+    				name="emotion"
+    				value="Helplessness"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Helplessness</label>
+    			<label><input
+    				name="emotion"
+    				value="Surprise"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Surprise</label>
+    			<label><input
+    				name="emotion"
+    				value="Grief"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Grief</label>
+    			<label><input
+    				name="emotion"
+    				value="Envy"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Horror</label>
+    			<label><input
+    				name="emotion"
+    				value="Boredom"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Boredom</label>
+    			<label><input
+    				name="emotion"
+    				value="Annoyed"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Annoyed</label>
+    			<label><input
+    				name="emotion"
+    				value="Anxiety"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Anxiety</label>
+    			<label><input
+    				name="emotion"
+    				value="Confusion"
+    				type="checkbox"
+    				class="input-checkbox"
+    			/>Confusion</label>
+    		</div>
+    		<div class="form-group">
+    			<p>You can share how you day went and vent out all your feelings and emotions below:</p>
+    			<textarea
+    				id="story-for-the-day"
+    				class="input-textarea"
+    				name="comment"
+    				placeholder="Tell your story here..."
+    			></textarea>
+    		</div>
+
+    		<div class="form-group">
+    			<button type="submit" id="submit" class="submit-button">
+    			  Submit
+    			</button>
+    		</div>
+		</form>
 	</section>
 </body>
 </html>
